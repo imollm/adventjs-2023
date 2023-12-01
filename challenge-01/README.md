@@ -1,6 +1,6 @@
 # Challenge 1: First gift repeated
 
-<img src="./icon.png" alt="challange-01" width="40px" height="40px" />
+<img src="https://adventjs.dev/challenges-2023/1.png" alt="challange-01" width="40px" height="40px" />
 
 ## Instructions
 
