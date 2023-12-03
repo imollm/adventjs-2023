@@ -1,6 +1,6 @@
 # Challenge 2: 🏭 We start the factory
 
-<img src="https://adventjs.dev/challenges-2023/2.png" alt="challange-01" width="40px" height="40px" />
+<img src="https://adventjs.dev/challenges-2023/2.png" alt="challange-02" width="40px" height="40px" />
 
 ## Instructions
 

@@ -1,4 +1,4 @@
-# Challenge 1: First gift repeated
+# Challenge 1: 🎁 First gift repeated
 
 <img src="https://adventjs.dev/challenges-2023/1.png" alt="challange-01" width="40px" height="40px" />
 
