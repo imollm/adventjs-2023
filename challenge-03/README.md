@@ -31,7 +31,7 @@ findNaughtyStep(original, modified) // ''
 </ul>
 
 # Solution
-### Completed with XXX points
+### Completed with 320 points
 ```js
 function findNaughtyStep(original, modified) {
   const findDifferentElement = (arr1, arr2) => {
