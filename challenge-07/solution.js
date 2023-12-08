@@ -1,40 +1,48 @@
 function drawGift(size, symbol) {
-  const giftHeightAndWidth = (size - 1) * 2 + 1; // 7
-  const gift = [];
+  const totalHeight = (size - 1) * 2 + 1;
+  const backFillHeight = totalHeight - 2;
+  const backFill = (size + 1) / 2;
+  const middle = Math.ceil(backFillHeight / 2);
+  let lineCount = middle - 1;
+
   const PAD = "#";
   const SPACE = " ";
   const SYMBOL = symbol;
-  let start = size - 1; // 4
-  const end = giftHeightAndWidth;
-  let giftLine;
 
-  for (let i = 0; i < size; i++) {
-    giftLine = Array(giftHeightAndWidth)
-      .fill("")
-      .map((_, j) => {
-        if (i === 0) {
-          return j >= start && j < end ? PAD : SPACE;
-        } else {
-          if (j === start + 1 || j === start + 2) {
-            return SYMBOL;
-          } else if (j === start || (j > start && j < end)) {
-            return PAD;
-          } else {
-            return SPACE;
-          }
-        }
-      })
-      .join("");
+  let gift = "";
 
-    gift.push(giftLine);
+  gift = SPACE.repeat(middle) + PAD.repeat(size) + "\n";
 
-    start--;
+  for (let h = 1; h <= backFillHeight; h++) {
+    if (h < middle) {
+      gift +=
+        SPACE.repeat(lineCount) +
+        PAD.repeat(1) +
+        SYMBOL.repeat(backFill) +
+        PAD.repeat(1) +
+        SYMBOL.repeat(backFill - lineCount) +
+        PAD.repeat(1) +
+        "\n";
+      lineCount--;
+    } else if (h === middle) {
+      gift += PAD.repeat(size) + SYMBOL.repeat(backFill) + PAD.repeat(1) + "\n";
+      lineCount = 1;
+    } else if (h > middle) {
+      gift +=
+        PAD.repeat(1) +
+        SYMBOL.repeat(backFill) +
+        PAD.repeat(1) +
+        SYMBOL.repeat(backFill - lineCount) +
+        PAD.repeat(1) +
+        SPACE.repeat(lineCount) +
+        "\n";
+      lineCount++;
+    }
   }
 
-  return gift.join("\n");
-}
+  gift += PAD.repeat(size) + SPACE.repeat(middle) + "\n";
 
-// console.log(drawGift(4, "+"));
-console.log(drawGift(5, "*"));
+  return gift;
+}
 
 export default drawGift;
