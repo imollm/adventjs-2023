@@ -52,7 +52,7 @@ describe("Challange-07 tests", () => {
     assert.strictEqual(actual, expected);
   });
 
-  test("", () => {
+  test("Test: drawGift(10, '%')", () => {
     const expected = `         ##########
         #%%%%%%%%##
        #%%%%%%%%#%#
