@@ -2,7 +2,7 @@ import { describe, test } from "node:test";
 import assert from "node:assert";
 import organizeGifts from "./solution.js";
 
-describe("Challange-07 tests", () => {
+describe("Challange-08 tests", () => {
   test("Test: organizeGifts('76a11b')", () => {
     const expected = "[a]{a}{a}(aaaaaa){b}(b)";
     const actual = organizeGifts("76a11b");
