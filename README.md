@@ -8,15 +8,16 @@ Solutions to the [Adventjs.dev](https://adventjs.dev) challanges - 2023 edition.
 
 | Icon | Challenge | Title  | Difficulty  | Solution | Score |
 | :-------: | :-------: | :----: | :---------: | :------: | :------: |
-|    <img src="https://adventjs.dev/challenges-2023/1.png" width="50px" style="object-fit: contain;" />     |    01     | First gift repeated |    💚    | [Check solution](./challenge-01/README.md) | 260 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/2.png" width="50px" style="object-fit: contain;" />     |    02     | We start de factory |    💚    | [Check solution](./challenge-02/README.md) | 270 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/3.png" width="50px" style="object-fit: contain;" />     |    03     | The naughty elf |    💚    | [Check solution](./challenge-03/README.md) | 320 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/4.png" width="50px" style="object-fit: contain;" />     |    04     | Turn the parentheses around |   🧡    | [Check solution](./challenge-04/README.md) | 260 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/5.png" width="50px" style="object-fit: contain;" />     |    05     | Santa's CyberTruck |   🧡    | [Check solution](./challenge-05/README.md) | 110 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/6.png" width="50px" style="object-fit: contain;" />     |    06     | The reindeer on trial |   🧡    | [Check solution](./challenge-06/README.md) | 350 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/7.png" width="50px" style="object-fit: contain;" />     |    07     | The 3D Boxes |   💚    | [Check solution](./challenge-07/README.md) | 270 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/8.png" width="50px" style="object-fit: contain;" />     |    08     | Sorting the warehouse |   🧡    | [Check solution](./challenge-08/README.md) | 140 🏆 |
-|    <img src="https://adventjs.dev/challenges-2023/9.png" width="50px" style="object-fit: contain;" />     |    09     | Switch the lights |   💚    | [Check solution](./challenge-09/README.md) | 340 🏆 |
+|<img src="https://adventjs.dev/challenges-2023/1.png" width="50px" style="object-fit: contain;" />|01|First gift repeated|💚|[Check solution](./challenge-01/README.md)|260 🏆|
+|<img src="https://adventjs.dev/challenges-2023/2.png" width="50px" style="object-fit: contain;" />|02|We start de factory|💚|[Check solution](./challenge-02/README.md)|270 🏆|
+|<img src="https://adventjs.dev/challenges-2023/3.png" width="50px" style="object-fit: contain;" />|03|The naughty elf|💚|[Check solution](./challenge-03/README.md)|320 🏆|
+|<img src="https://adventjs.dev/challenges-2023/4.png" width="50px" style="object-fit: contain;" />|04|Turn the parentheses around|🧡|[Check solution](./challenge-04/README.md)|260 🏆|
+|<img src="https://adventjs.dev/challenges-2023/5.png" width="50px" style="object-fit: contain;" />|05|Santa's CyberTruck|🧡|[Check solution](./challenge-05/README.md)|110 🏆|
+|<img src="https://adventjs.dev/challenges-2023/6.png" width="50px" style="object-fit: contain;" />|06|The reindeer on trial|🧡|[Check solution](./challenge-06/README.md)|350 🏆|
+|<img src="https://adventjs.dev/challenges-2023/7.png" width="50px" style="object-fit: contain;" />|07|The 3D Boxes|💚|[Check solution](./challenge-07/README.md)|270 🏆|
+|<img src="https://adventjs.dev/challenges-2023/8.png" width="50px" style="object-fit: contain;" />|08|Sorting the warehouse|🧡|[Check solution](./challenge-08/README.md)|140 🏆|
+|<img src="https://adventjs.dev/challenges-2023/9.png" width="50px" style="object-fit: contain;" />|09|Switch the lights|💚|[Check solution](./challenge-09/README.md)|340 🏆|
+|<img src="https://adventjs.dev/challenges-2023/10.png" width="50px" style="object-fit: contain;" />|10|Create your own Christmas tree|💚|[Check solution](./challenge-10/README.md)|180 🏆|
 
 ## Tests
 The tests of this project have been made with [Node Test Runner](https://nodejs.org/dist/latest-v20.x/docs/api/test.html)
