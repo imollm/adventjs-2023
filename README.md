@@ -18,6 +18,7 @@ Solutions to the [Adventjs.dev](https://adventjs.dev) challanges - 2023 edition.
 |<img src="https://adventjs.dev/challenges-2023/8.png" width="50px" style="object-fit: contain;" />|08|Sorting the warehouse|🧡|[Check solution](./challenge-08/README.md)|140 🏆|
 |<img src="https://adventjs.dev/challenges-2023/9.png" width="50px" style="object-fit: contain;" />|09|Switch the lights|💚|[Check solution](./challenge-09/README.md)|340 🏆|
 |<img src="https://adventjs.dev/challenges-2023/10.png" width="50px" style="object-fit: contain;" />|10|Create your own Christmas tree|💚|[Check solution](./challenge-10/README.md)|180 🏆|
+|<img src="https://adventjs.dev/challenges-2023/11.png" width="50px" style="object-fit: contain;" />|11|The studious elves|💚|[Check solution](./challenge-11/README.md)|XXX 🏆|
 
 ## Tests
 The tests of this project have been made with [Node Test Runner](https://nodejs.org/dist/latest-v20.x/docs/api/test.html)

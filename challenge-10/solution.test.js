@@ -2,7 +2,7 @@ import { describe, test } from "node:test";
 import assert from "node:assert";
 import createChristmasTree from "./solution.js";
 
-describe("Challange-09 tests", () => {
+describe("Challange-10 tests", () => {
   test("Test: return type", () => {
     const expected = "string";
     const actual = typeof createChristmasTree("x", 3);
